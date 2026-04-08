@@ -1,4 +1,4 @@
-Before running, install the middleware and associated tools:
+Before running, install the middleware and associated tools (on both machines):
 ```
 sudo dnf install python3-ice ice-compilers
 ```
