@@ -7,6 +7,7 @@ class PrinterI(Demo.Printer):
         
     def printString(self, s, current=None):
         print(self.t, s)
+        return s + "*"
 
 communicator = Ice.initialize(sys.argv) 
 
