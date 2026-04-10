@@ -4,6 +4,7 @@ import Demo
 class PrinterI(Demo.Printer):
     def printString(self, s, current=None):
         print(s)
+        return s + "*"
 
 communicator = Ice.initialize(sys.argv) 
 
