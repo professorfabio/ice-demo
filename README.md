@@ -12,7 +12,7 @@ sudo dnf install python3-ice ice-compilers
 
 ## On Ubuntu
 ```
-wget "https://download.zeroc.com/ice/3.7/ubuntu24.04/ice-repo-3.7_1.0.0_all.deb" -O ice-repo.deb
+wget "https://download.zeroc.com/ice/3.8/ubuntu26.04/ice-repo-3.8_1.0.0_all.deb" -O ice-repo.deb
 sudo dpkg -i ice-repo.deb
 rm ice-repo.deb
 sudo apt-get update
